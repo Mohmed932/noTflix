@@ -44,7 +44,7 @@ const Navbar = () => {
               <FaSearch className="icon" />
             </div>
           </Link>
-          <div className="foot">
+          <div className="side">
             <span>
               <a href="https://www.facebook.com/Anamohmed135">
                 <RiFacebookCircleFill className="foot-icons" />
@@ -75,7 +75,7 @@ const Navbar = () => {
         <a href="#Upcoming">Upcoming</a>
       </div>
       <div className="Navbar-search">
-        <Link to="search">
+        <Link to="/search">
           <FaSearch className="icon" />
         </Link>
       </div>

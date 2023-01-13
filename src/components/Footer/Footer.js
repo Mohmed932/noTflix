@@ -10,10 +10,6 @@ import {
 import { AiOutlineArrowUp } from "react-icons/ai";
 
 const Footer = () => {
-  window.scroll = () => {
-    console.log();
-  };
-
   const year = new Date().getFullYear();
   return (
     <div className="Footer">

@@ -2,7 +2,6 @@ import React, { lazy, Suspense, useState } from "react";
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// const Error = lazy(() => import("./components/Error"));
 const PageNotFound = lazy(() =>
   import("./components/PageNotFound/PageNotFound")
 );

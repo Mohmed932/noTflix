@@ -63,7 +63,7 @@ https://api.themoviedb.org/3/movie/popular?api_key=${APIKEY}&language=en-US&page
   } catch (error) {
     console.log(error);
   }
-  setall(Upcome.concat(Trend, TopRate, famous));
+  setall(famous);
   return (
     <Suspense fallback={<Loading />}>
       <Navbar />

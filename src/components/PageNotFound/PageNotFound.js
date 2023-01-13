@@ -1,9 +1,14 @@
 import React from "react";
 import "./PageNotFound.css";
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const PageNotFound = () => {
   return (
     <div className="PageNotFound">
+      <AiOutlineArrowLeft
+        className="AiOutlineArrowLeft"
+        onClick={() => window.history.back()}
+      />
       <div>
         <svg
           width="1123"

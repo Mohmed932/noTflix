@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Similar from "../Similar";
 import "./Move.css";
@@ -31,9 +31,10 @@ const Move = () => {
   return (
     <div className="allsingle">
       <div className="single">
-        <Link to="/">
-          <AiOutlineArrowLeft className="AiOutlineArrowLeft" />
-        </Link>
+        <AiOutlineArrowLeft
+          className="AiOutlineArrowLeft"
+          onClick={() => window.history.back()}
+        />
         {show ? <Youtube video={video} setshow={setshow} /> : ""}
         <div className="single-image">
           <img
